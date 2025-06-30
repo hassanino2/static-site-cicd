@@ -23,4 +23,4 @@ jobs:
         aws-region: us-east-1  # or your chosen region
 
     - name: Deploy to S3
-      run: aws s3 sync html5up-paradigmshift s3://cicd-hassanino-portfolio --delete
+      run: aws s3 sync html5up-paradigm-shift s3://cicd-hassanino-portfolio --delete
