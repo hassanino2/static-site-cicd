@@ -23,4 +23,4 @@ jobs:
         aws-region: us-east-1  # or your chosen region
 
     - name: Deploy to S3
-      run: aws s3 sync portfolio s3://hassanino.com --delete
+      run: aws s3 sync portfolio s3://cicd-hassanino-portfolio --delete
